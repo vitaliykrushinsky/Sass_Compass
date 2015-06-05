@@ -1,8 +1,12 @@
 //Ofline, Коли буде інет перевірити лінки
-@import url("http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather");
+//@import url("http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather");
              
 // Offline
-@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+//@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+
+@import url('http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather');
+
+@import url('http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css');
 
 body {
 	font-family: $font-primary;
@@ -19,7 +23,7 @@ body {
 }
 h1 {
 	font-size: 2.2rem;
-	color: lighten($darkblue, 25%);
+	color: lighten($darkblue, 25);
 	margin-bottom: .4rem;
 	border-bottom: 1px solid $lightgray;
 	padding-top: 10px;
@@ -38,7 +42,7 @@ h3 {
 
 a {
 	text-decoration: underline;
-	color: mediumgray;
+	color: $mediumgray;
 	&:hover {
 		color: $orange;
 	}

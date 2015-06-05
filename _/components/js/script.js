@@ -1,5 +1,5 @@
 var pixGrid = function() { 
-  //Selecting our node
+  // Selecting our node
   var myNode = document.querySelector('.pixgrid');
   myNode.addEventListener("click", function(e) {
 
